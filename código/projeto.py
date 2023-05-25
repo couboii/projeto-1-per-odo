@@ -55,7 +55,7 @@ def ler():
          else:
              print("VALOR INVÁLIDO! as opções são de 1 a 5")
         except ValueError:
-            print("LETRAS NÃO SÃO ACEITAS! informe um valor válido")
+            print("LETRAS NÃO SÃO ACEITAS! informe um valor válido.")
     if escolha_ler == 5:
         print("Gastos totais:\n")
         for i in range(1, 5):
