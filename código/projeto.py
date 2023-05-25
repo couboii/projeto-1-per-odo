@@ -19,7 +19,7 @@ while True:
 
 def adicionar():
     arquivo = open("dados.csv", "a")
-    nome = input("Com o que você gastou? ").capitalize()
+    nome = input("Com o que você gastou?: ").capitalize()
     while True:
         try:
          valor = float(input("Quanto custou? "))
